@@ -19,7 +19,7 @@
 			  <div class="flex justify-between items-center">
 				<img class="pt-6 pl-5 w-16 top-0" src="./images/logo-removebg-preview.png" alt="logo">
 				<p class="absolute ml-20 text-xl font-semibold mt-6">HazeXpert</p>
-				<div class="px-4 cursor-pointer md:hidden" id="burger">
+				<div class="px-4 cursor-pointer md:hidden z-20" id="burger">
 				  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white" id="menuIcon">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
 				  </svg>
@@ -55,7 +55,7 @@
 			<p class="w-[550px] h-[116px] leading-7 font-dm-sans relative top-24 left-8 text-2xl text-justify">HazeXpert utilises deep learning to dehaze and desmoke images online, restore features in hazy shots and fix the colour of the sky, portraits, mountains, clouds, and emergency spots for much more explicit pictures.</p>
 			<img class="relative top-48" src="./images/Rectangle.png" alt="Rectangle">
 			<img class="absolute top-45 right-0" src="./images/triangle.png" alt="triangle">
-			<div class="absolute top-48.5 right-0 bottom-0 left-0 w-50 h-28.5 m-auto flex items-center justify-center bg-white rounded-2xl">
+			<div class="absolute top-48.5 right-0 bottom-0 left-0 w-50 h-28.5 m-auto flex items-center justify-center bg-white rounded-2xl cursor-pointer">
 				<div id="fileContainer" class="relative space-y-6 text-center border-dashed border-3 rounded-2xl border-gray-400 w-45 h-72 -top-10">
 					<img class="relative left-72 right-0 top-12 bottom-0" src="./images/cloud.png" alt="cloud-img">
 					<p class="text-gray-700 text-lg relative top-12">Upload your files here! Or<label for="bgfile" title="Upload a file" class="relative z-20 cursor-pointer text-blue-500 hover:text-blue-600 block">Browse</label></p>
@@ -72,7 +72,7 @@
 			<div class="flex justify-center text-6xl font-bold font-lexend-deca relative top-20">
 			  <span> Steps To Upload Your File </span>
 			</div>
-			<div class="flex justify-center items-center mt-32">
+			<div class="flex justify-center items-center mt-48">
 				<div class="grid grid-cols-3 gap-24">
 					<div class="h-[259px] w-[259px] bg-lightGray text-lg text-white text-center">
 						<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" style="fill: white; width: 60px; height: 60px;" class="m-1 h-12 w-12 left-0 right-0 mx-auto relative top-6">
@@ -101,21 +101,26 @@
 			</div>
 			<img class="relative bottom-40 left-34" src="./images/blackArrow.png" alt="arrow-1">
 			<img class="relative bottom-14.5 left-56.5" src="./images/blackArrow.png" alt="arrow-2">
+			<img class="relative bottom-27 left-56" src="./images/healthicons_1-outline.png" alt="one">
+			<img class="relative bottom-29.5 left-37" src="./images/Vector.png" alt="two">
+			<img class="relative bottom-32.5 left-59" src="./images/healthicons_3-outline.png" alt="three">
 		</section>
 
-		<section id="features">
+		<section class="-mt-32" id="features">
 			<div class="flex justify-center text-6xl font-bold font-lexend-deca relative">
 				<span>Key Features</span>
 			</div>
-			<div class="w-[550px] h-[240px] bg-feat_1 relative rounded-2xl left-52 top-20">
+			<div class="mt-14">
+				<div class="w-[550px] h-[240px] bg-feat_1 relative rounded-2xl left-52 top-20">
 
-			</div>
-			<div class="w-[550px] h-[240px] bg-feat_2 relative rounded-2xl left-48.5 top-60">
-
-			</div>
-			
-			<div class="w-[550px] h-[240px] bg-feat_3 relative rounded-2xl left-52 top-25">
-
+				</div>
+				<div class="w-[550px] h-[240px] bg-feat_2 relative rounded-2xl left-48.5 top-60">
+	
+				</div>
+				
+				<div class="w-[550px] h-[240px] bg-feat_3 relative rounded-2xl left-52 top-25">
+	
+				</div>
 			</div>
 		</section>
 	</section>
