@@ -9,6 +9,10 @@ module.exports = {
         orskin: '#FCA087',
         bluePurple: '#6A7CE2',
         newGray: '#645F5F',
+        lightGray: 'rgba(161, 161, 161, 1)',
+        feat_1: 'rgba(252, 160, 135, 1)',
+        feat_2: 'rgba(106, 124, 226, 1)',
+        feat_3: 'rgba(244, 204, 194, 1)',
       },
 
       fontFamily: {
@@ -18,12 +22,14 @@ module.exports = {
 
       height: {
         '71': '71rem', 
+        '200': '200rem',
       },
 
       spacing: {
         '14.5': '14.5rem',
         '22': '22rem',
         '23': '23rem',
+        '25': '25rem',
         '28.5': '28rem',
         '45': '45rem',
         '30': '30rem',
